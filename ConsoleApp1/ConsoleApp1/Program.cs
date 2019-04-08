@@ -16,25 +16,27 @@ namespace ConsoleApp1
             int summa = Multiple(25, 55);
             Write(summa);
 
+            Console.ReadKey();
         }
 
         static void Write(int x)
         {
             Console.WriteLine(x);
-            Console.ReadKey();
         }
 
-            static void Write(double x);
+        static void Write(double x)
+        {
+            Console.WriteLine(x);
+        }
 
-
-            //Console.Writeline(x);
-            //Console.ReadKey();
-            }
 
         static int Multiple(int x, int y)
-    {
-             int summa = x * y;
-             return summa;
+        {
+            int summa = x * y;
+            return summa;
+        }
+    
+
 
             
             
